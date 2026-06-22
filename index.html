@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saudi National Telehealth & RWE Integration: Strategic MoH Briefing</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        saudi: {
+                            green: '#006C35',
+                            darkgreen: '#004B23',
+                            lightgreen: '#E8F5E9',
+                            gold: '#D4AF37',
+                            dark: '#0F172A',
+                            carddark: '#1E293B',
+                            lightbg: '#F8FAFC'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts for premium executive layout -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Noto+Kufi+Arabic:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', 'Noto Kufi Arabic', sans-serif;
+        }
+        .arabic-text {
+            font-family: 'Noto Kufi Arabic', sans-serif;
+        }
+        .scrollbar-thin::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .scrollbar-thin::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.05);
+        }
+        .scrollbar-thin::-webkit-scrollbar-thumb {
+            background: rgba(0, 108, 53, 0.2);
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="bg-saudi-lightbg text-slate-800 dark:bg-saudi-dark dark:text-slate-100 min-h-screen transition-colors duration-300">
+
+    <!-- Top Premium Navigation -->
+    <header class="sticky top-0 z-50 backdrop-blur-md bg-white/80 dark:bg-saudi-dark/80 border-b border-slate-200 dark:border-slate-800 transition-colors">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <!-- Saudi Emblem SVG Mock -->
+                <div class="w-12 h-12 flex items-center justify-center bg-saudi-green text-white rounded-lg shadow-md shadow-saudi-green/30">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                    </svg>
+                </div>
+                <div>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-xs font-bold tracking-widest text-saudi-green dark:text-saudi-gold uppercase">Strategic Briefing Document</span>
+                        <span class="px-1.5 py-0.5 rounded text-[10px] font-semibold bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400">RESTRICTED</span>
+                    </div>
+                    <h1 class="text-lg font-extrabold tracking-tight text-slate-900 dark:text-white flex items-center gap-2">
+                        Saudi Telehealth Integration & RWE Strategy
+                    </h1>
+                </div>
+            </div>
+            
+            <div class="flex items-center space-x-4">
+                <!-- Theme Toggle -->
+                <button id="themeToggle" class="p-2.5 rounded-lg bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-300 transition-all">
+                    <!-- Sun Icon -->
+                    <svg id="sunIcon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z"></path></svg>
+                    <!-- Moon Icon -->
+                    <svg id="moonIcon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+                </button>
+                <div class="text-right hidden md:block">
+                    <p class="text-xs text-slate-400">Prepared for</p>
+                    <p class="text-sm font-semibold text-saudi-green dark:text-saudi-gold">Ministry of Health (MOH) Leadership</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Body Container -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
+
+        <!-- Executive Hero / Overview -->
+        <section class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-saudi-green to-saudi-darkgreen text-white p-8 md:p-12 shadow-2xl">
+            <!-- Background Decorative Grid -->
+            <div class="absolute inset-0 opacity-10 bg-[linear-gradient(to_right,#808080_1px,transparent_1px),linear-gradient(to_bottom,#808080_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+            <div class="relative z-10 max-w-4xl space-y-4">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-white/20 text-saudi-gold border border-white/10 uppercase tracking-wider">
+                    🇸🇦 Vision 2030 Health Sector Transformation
+                </span>
+                <h2 class="text-3xl md:text-5xl font-black leading-tight tracking-tight">
+                    Securing Patient Discretion in the Unified Health Record & RWE Revolution
+                </h2>
+                <p class="text-lg text-emerald-100 max-w-3xl font-light leading-relaxed">
+                    This executive brief outlines the architectural roadmap integrating Saudi Arabia's booming telehealth initiatives with the national <strong class="text-white font-semibold">NPHIES Core</strong>. It highlights the strategic construction of a centralized <strong class="text-white font-semibold">Real-World Evidence (RWE)</strong> data pipeline for business applications, while demonstrating the definitive technical safeguards protecting citizens' clinical privacy from unauthorized private-sector access.
+                </p>
+                <div class="pt-4 flex flex-wrap gap-4 text-xs">
+                    <div class="flex items-center gap-2 bg-white/10 px-3.5 py-2 rounded-lg backdrop-blur-sm">
+                        <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                        <span>NPHIES Clinical Integration: Active Phase</span>
+                    </div>
+                    <div class="flex items-center gap-2 bg-white/10 px-3.5 py-2 rounded-lg backdrop-blur-sm">
+                        <span class="w-2.5 h-2.5 rounded-full bg-saudi-gold"></span>
+                        <span>SDAIA PDPL Compliant</span>
+                    </div>
+                    <div class="flex items-center gap-2 bg-white/10 px-3.5 py-2 rounded-lg backdrop-blur-sm">
+                        <span class="w-2.5 h-2.5 rounded-full bg-blue-400"></span>
+                        <span>SFDA RWE-Regulated Guidance</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic High-Level Metrics -->
+        <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-white dark:bg-saudi-carddark rounded-2xl p-6 shadow-md border border-slate-100 dark:border-slate-800 transition-all hover:scale-[1.02]">
+                <div class="text-saudi-green dark:text-saudi-gold mb-2">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                </div>
+                <h3 class="text-3xl font-extrabold text-slate-950 dark:text-white">23M+</h3>
+                <p class="text-sm font-semibold text-slate-500 dark:text-slate-400">Unified Public Users</p>
+                <p class="text-xs text-slate-400 mt-1">Managed via Sehhaty & the 937 National Virtual Triage network.</p>
+            </div>
+            <div class="bg-white dark:bg-saudi-carddark rounded-2xl p-6 shadow-md border border-slate-100 dark:border-slate-800 transition-all hover:scale-[1.02]">
+                <div class="text-saudi-green dark:text-saudi-gold mb-2">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                </div>
+                <h3 class="text-3xl font-extrabold text-slate-950 dark:text-white">100%</h3>
+                <p class="text-sm font-semibold text-slate-500 dark:text-slate-400">Anat-SCFHS Integration</p>
+                <p class="text-xs text-slate-400 mt-1">Full real-time verification of professional licenses and credentials.</p>
+            </div>
+            <div class="bg-white dark:bg-saudi-carddark rounded-2xl p-6 shadow-md border border-slate-100 dark:border-slate-800 transition-all hover:scale-[1.02]">
+                <div class="text-saudi-green dark:text-saudi-gold mb-2">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                </div>
+                <h3 class="text-3xl font-extrabold text-slate-950 dark:text-white">75%+</h3>
+                <p class="text-sm font-semibold text-slate-500 dark:text-slate-400">NPHIES Core Coverage</p>
+                <p class="text-xs text-slate-400 mt-1">Active private and public hospitals exchanging clinical data.</p>
+            </div>
+            <div class="bg-white dark:bg-saudi-carddark rounded-2xl p-6 shadow-md border border-slate-100 dark:border-slate-800 transition-all hover:scale-[1.02]">
+                <div class="text-saudi-green dark:text-saudi-gold mb-2">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                </div>
+                <h3 class="text-3xl font-extrabold text-slate-950 dark:text-white">SAR 3M</h3>
+                <p class="text-sm font-semibold text-slate-500 dark:text-slate-400">Max PDPL Violation Fine</p>
+                <p class="text-xs text-slate-400 mt-1">Coupled with strict prison terms under SDAIA enforcement guidelines.</p>
+            </div>
+        </section>
+
+        <!-- Section 1: The Unified Saudi Telehealth Ecosystem Map -->
+        <section class="bg-white dark:bg-saudi-carddark rounded-2xl p-6 md:p-8 shadow-md border border-slate-100 dark:border-slate-800">
+            <div class="mb-6">
+                <h3 class="text-2xl font-black text-slate-900 dark:text-white flex items-center gap-3">
+                    <span class="flex items-center justify-center w-8 h-8 rounded-lg bg-saudi-lightgreen dark:bg-emerald-900/30 text-saudi-green dark:text-saudi-gold text-sm font-bold">1</span>
+                    The Unified Saudi Telehealth Ecosystem Map
+                </h3>
+                <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">
+                    Click each primary system block below to audit its administrative oversight, technical operator, and core clinical data integrations.
+                </p>
+            </div>
+
+            <!-- Interative SVG/Flex Flow Chart -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                
+                <!-- Diagram Visual (Left 7 Cols) -->
+                <div class="lg:col-span-8 bg-slate-50 dark:bg-slate-900/40 rounded-2xl p-6 border border-slate-200/50 dark:border-slate-800/80">
+                    <div class="space-y-6">
+                        
+                        <!-- Row 1: The Public Entrypoints -->
+                        <div>
+                            <span class="text-[10px] font-bold tracking-widest text-slate-400 uppercase">Public Portals</span>
+                            <div class="grid grid-cols-3 gap-3 mt-1.5">
+                                <button onclick="selectEcosystemNode('sehhaty')" id="btn-sehhaty" class="eco-node-btn p-3 rounded-xl border border-emerald-200 dark:border-emerald-900/50 bg-white dark:bg-slate-900 shadow-sm transition-all hover:shadow-md text-left group">
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-xs font-bold text-saudi-green dark:text-emerald-400">Sehhaty</span>
+                                        <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                                    </div>
+                                    <p class="text-[10px] text-slate-400 mt-1">Consumer Care & Consults</p>
+                                </button>
+                                <button onclick="selectEcosystemNode('937')" id="btn-937" class="eco-node-btn p-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm transition-all hover:shadow-md text-left group">
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-xs font-bold text-slate-700 dark:text-slate-300">937 Call Center</span>
+                                        <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                                    </div>
+                                    <p class="text-[10px] text-slate-400 mt-1">Triage & Tele-Counseling</p>
+                                </button>
+                                <button onclick="selectEcosystemNode('svh')" id="btn-svh" class="eco-node-btn p-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm transition-all hover:shadow-md text-left group">
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-xs font-bold text-slate-700 dark:text-slate-300">Seha Virtual (SVH)</span>
+                                        <span class="w-1.5 h-1.5 rounded-full bg-saudi-gold animate-ping"></span>
+                                    </div>
+                                    <p class="text-[10px] text-slate-400 mt-1">World's Largest Virtual Hospital</p>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Connector Arrow -->
+                        <div class="flex justify-center my-1">
+                            <svg class="w-6 h-6 text-slate-400 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+                        </div>
+
+                        <!-- Row 2: Private Operators and Credentials -->
+                        <div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-[10px] font-bold tracking-widest text-slate-400 uppercase">Commercial & Practitioner Platforms</span>
+                                <span class="text-[10px] font-semibold text-saudi-green dark:text-saudi-gold bg-saudi-lightgreen dark:bg-emerald-950/40 px-2 py-0.5 rounded">Credentials Synced via Anat</span>
+                            </div>
+                            <div class="grid grid-cols-2 gap-3 mt-1.5">
+                                <button onclick="selectEcosystemNode('private-apps')" id="btn-private-apps" class="eco-node-btn p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm transition-all hover:shadow-md text-left">
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-xs font-bold text-slate-800 dark:text-white">Licensed Telehealth Apps</span>
+                                        <span class="text-[9px] bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 px-1.5 py-0.5 rounded font-mono">Cura | Altibbi | NoDiet</span>
+                                    </div>
+                                    <p class="text-[10px] text-slate-400 mt-1">Proprietary virtual clinics utilizing private contracted medical staff.</p>
+                                </button>
+                                <button onclick="selectEcosystemNode('anat')" id="btn-anat" class="eco-node-btn p-4 rounded-xl border border-emerald-300 dark:border-emerald-800/80 bg-white dark:bg-slate-900 shadow-sm transition-all hover:shadow-md text-left">
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-xs font-bold text-saudi-green dark:text-emerald-400">Anat Platform (SCFHS)</span>
+                                        <span class="text-[9px] bg-emerald-100 dark:bg-emerald-900/30 text-saudi-green dark:text-emerald-400 px-1.5 py-0.5 rounded font-mono">Unified Registry</span>
+                                    </div>
+                                    <p class="text-[10px] text-slate-400 mt-1">Single source of truth verifying credentials & authorizing clinical privileges.</p>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Connector Arrow -->
+                        <div class="flex justify-center my-1">
+                            <svg class="w-6 h-6 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+                        </div>
+
+                        <!-- Row 3: National Health Information Exchange Core -->
+                        <div class="p-4 rounded-2xl bg-gradient-to-r from-emerald-50 to-teal-50 dark:from-slate-900 dark:to-slate-950 border-2 border-saudi-green/40 relative shadow-inner">
+                            <div class="absolute top-2.5 right-3 bg-saudi-green text-white dark:bg-saudi-gold dark:text-saudi-dark text-[9px] font-bold px-2 py-0.5 rounded uppercase tracking-wider">
+                                National Clinical Core
+                            </div>
+                            <button onclick="selectEcosystemNode('nphies')" id="btn-nphies" class="eco-node-btn w-full text-left bg-transparent">
+                                <h4 class="text-sm font-extrabold text-saudi-darkgreen dark:text-emerald-400">NPHIES System (National Health Information Exchange)</h4>
+                                <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+                                    Maintained by CHI & NHIC, operated by <strong class="text-saudi-green dark:text-saudi-gold font-semibold">Lean Business Services</strong>. Archiving all clinical data, diagnostic reports, medications, and insurance approvals in the Kingdom under unified schemas (Taameen & Sehey).
+                                </p>
+                            </button>
+                        </div>
+
+                        <!-- Double Arrow -->
+                        <div class="flex justify-between px-20">
+                            <div class="flex flex-col items-center">
+                                <span class="text-[9px] font-bold text-slate-400 uppercase">Research Engine</span>
+                                <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+                            </div>
+                            <div class="flex flex-col items-center">
+                                <span class="text-[9px] font-bold text-slate-400 uppercase">Fulfillment</span>
+                                <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+                            </div>
+                        </div>
+
+                        <!-- Row 4: RWE and Pharmacies -->
+                        <div class="grid grid-cols-2 gap-3">
+                            <button onclick="selectEcosystemNode('rwe-pipeline')" id="btn-rwe-pipeline" class="eco-node-btn p-4 rounded-xl border border-dashed border-slate-300 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm transition-all text-left">
+                                <span class="text-xs font-bold text-blue-600 dark:text-blue-400 flex items-center gap-1.5">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 002 2h2a2 2 0 002-2"></path></svg>
+                                    RWE / SFDA Platform
+                                </span>
+                                <p class="text-[10px] text-slate-400 mt-1">Anonymized patient cohorts feeding medical research and AI diagnostics.</p>
+                            </button>
+                            <button onclick="selectEcosystemNode('pharmacies')" id="btn-pharmacies" class="eco-node-btn p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm transition-all text-left">
+                                <span class="text-xs font-bold text-slate-800 dark:text-white flex items-center gap-1.5">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                                    Pharma Chains (Wasfaty/E-Prescribe)
+                                </span>
+                                <p class="text-[10px] text-slate-400 mt-1">Nahdi, Al-Dawaa, & Adam delivering therapies directly via virtual orders (NoDiet sync).</p>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Node Description Side-Card (Right 4 Cols) -->
+                <div class="lg:col-span-4 bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-lg min-h-[480px] flex flex-col justify-between">
+                    <div id="eco-details-content" class="space-y-4">
+                        <!-- Initial view before click -->
+                        <div class="text-center py-12">
+                            <div class="w-16 h-16 mx-auto mb-4 flex items-center justify-center rounded-full bg-saudi-lightgreen dark:bg-emerald-950/30 text-saudi-green dark:text-saudi-gold">
+                                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            </div>
+                            <h4 class="text-base font-bold text-slate-800 dark:text-white">Select an Ecosystem Node</h4>
+                            <p class="text-xs text-slate-400 mt-2 px-4 leading-relaxed">
+                                Auditing the clinical dependencies, operational mandates, and cross-platform syncing architectures of the Saudi digital healthcare system.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800 text-[11px] text-slate-400">
+                        <span class="font-bold text-saudi-green dark:text-saudi-gold">Governance Note:</span> All operations are tightly monitored under Ministerial decrees and NHIC standards to ensure data localization within KSA limits.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section 2: Building and Utilizing Real-World Evidence (RWE) -->
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            
+            <!-- Left: Building the Data Engine -->
+            <div class="bg-white dark:bg-saudi-carddark rounded-2xl p-6 md:p-8 shadow-md border border-slate-100 dark:border-slate-800 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-2xl font-black text-slate-900 dark:text-white flex items-center gap-3">
+                        <span class="flex items-center justify-center w-8 h-8 rounded-lg bg-saudi-lightgreen dark:bg-emerald-900/30 text-saudi-green dark:text-saudi-gold text-sm font-bold">2A</span>
+                        Building the RWD to RWE Engine
+                    </h3>
+                    <p class="text-slate-500 dark:text-slate-400 text-sm mt-1 mb-6">
+                        Converting standard EMR exchanges from NPHIES into regulatory-grade Real-World Evidence.
+                    </p>
+
+                    <div class="space-y-4">
+                        <!-- Step 1 -->
+                        <div class="flex items-start gap-3.5">
+                            <div class="w-6 h-6 mt-1 flex items-center justify-center rounded-full bg-saudi-green text-white text-[10px] font-bold">01</div>
+                            <div>
+                                <h4 class="text-sm font-bold text-slate-800 dark:text-slate-200">Continuous Clinical Telemetry</h4>
+                                <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5 leading-relaxed">
+                                    Every consultation on public portals (Sehhaty) and licensed private apps (Cura, NoDiet) streams clinical coding, medication prescriptions, and diagnostics directly to <strong class="text-slate-700 dark:text-slate-300 font-semibold">NPHIES Sehey</strong> in real-time.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="flex items-start gap-3.5">
+                            <div class="w-6 h-6 mt-1 flex items-center justify-center rounded-full bg-saudi-green text-white text-[10px] font-bold">02</div>
+                            <div>
+                                <h4 class="text-sm font-bold text-slate-800 dark:text-slate-200">The National Pseudonymization Pipeline</h4>
+                                <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5 leading-relaxed">
+                                    Lean Business Services processes raw data, stripping demographic identifiers (National IDs, names) and substituting them with cryptographic hashes. This transforms raw clinical telemetry into <strong class="text-slate-700 dark:text-slate-300 font-semibold">Real-World Data (RWD)</strong>.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="flex items-start gap-3.5">
+                            <div class="w-6 h-6 mt-1 flex items-center justify-center rounded-full bg-saudi-green text-white text-[10px] font-bold">03</div>
+                            <div>
+                                <h4 class="text-sm font-bold text-slate-800 dark:text-slate-200">SFDA Regulatory Enclave</h4>
+                                <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5 leading-relaxed">
+                                    In alignment with the newly outlined <strong class="text-saudi-green dark:text-saudi-gold font-semibold">SFDA Framework on RWE</strong>, longitudinal data sets are organized into patient cohorts. This supports pharmaceutical post-market surveillance, drug efficacy audits, and health economics modeling.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 dark:bg-slate-900/60 p-4 rounded-xl border border-slate-200/60 dark:border-slate-800 mt-6">
+                    <span class="text-[10px] font-bold text-saudi-green dark:text-saudi-gold uppercase tracking-wider block mb-1">Strategic Objective</span>
+                    <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+                        To construct the region's largest disease registry (Cardiology, Obesity, Type II Diabetes) using longitudinal clinical insights, turning the Kingdom into a global health-tech powerhouse.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Right: Commercial Utilization inside Business Apps -->
+            <div class="bg-white dark:bg-saudi-carddark rounded-2xl p-6 md:p-8 shadow-md border border-slate-100 dark:border-slate-800 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-2xl font-black text-slate-900 dark:text-white flex items-center gap-3">
+                        <span class="flex items-center justify-center w-8 h-8 rounded-lg bg-saudi-lightgreen dark:bg-emerald-900/30 text-saudi-green dark:text-saudi-gold text-sm font-bold">2B</span>
+                        Utilizing RWE in Third-Party Apps
+                    </h3>
+                    <p class="text-slate-500 dark:text-slate-400 text-sm mt-1 mb-6">
+                        How commercial entities (e.g., Cura, Altibbi, NoDiet) leverage centralized data to interpret histories and speed up diagnoses.
+                    </p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/40 border border-slate-100 dark:border-slate-800/80">
+                            <h4 class="text-xs font-bold text-saudi-green dark:text-emerald-400 flex items-center gap-1.5">
+                                <span class="w-1.5 h-1.5 rounded-full bg-saudi-green"></span>
+                                Clinical Decision Support (CDSS)
+                            </h4>
+                            <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-2 leading-relaxed">
+                                Telehealth platforms query NPHIES Sehey to pull historical patient trends, allowing instant diagnostic matching against verified regional disease protocols.
+                            </p>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/40 border border-slate-100 dark:border-slate-800/80">
+                            <h4 class="text-xs font-bold text-saudi-green dark:text-emerald-400 flex items-center gap-1.5">
+                                <span class="w-1.5 h-1.5 rounded-full bg-saudi-green"></span>
+                                Personalized Care Pathways
+                            </h4>
+                            <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-2 leading-relaxed">
+                                Apps like NoDiet can cross-reference physical pharmacy dispensations (Adam, Nahdi) with active lab reports to optimize weight-management injection plans dynamically.
+                            </p>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/40 border border-slate-100 dark:border-slate-800/80">
+                            <h4 class="text-xs font-bold text-saudi-green dark:text-emerald-400 flex items-center gap-1.5">
+                                <span class="w-1.5 h-1.5 rounded-full bg-saudi-green"></span>
+                                Automated Risk Stratification
+                            </h4>
+                            <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-2 leading-relaxed">
+                                AI systems run localized patient risk scores prior to virtual consultation, flagging pre-diabetic patients to remote clinical pharmacists for medication therapy management (MTM).
+                            </p>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/40 border border-slate-100 dark:border-slate-800/80">
+                            <h4 class="text-xs font-bold text-saudi-green dark:text-emerald-400 flex items-center gap-1.5">
+                                <span class="w-1.5 h-1.5 rounded-full bg-saudi-green"></span>
+                                API Marketplace ("Heem")
+                            </h4>
+                            <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-2 leading-relaxed">
+                                Lean's Heem API marketplace serves as the gateway, allowing validated apps to query specific health parameters securely and uniformly.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Danger / Warning Box -->
+                <div class="bg-red-50 dark:bg-red-950/20 p-4 rounded-xl border border-red-100 dark:border-red-900/40 mt-6">
+                    <div class="flex items-center gap-2 mb-1">
+                        <svg class="w-4 h-4 text-red-600 dark:text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                        <span class="text-[10px] font-extrabold text-red-800 dark:text-red-400 uppercase tracking-wider">The MoH Dilemma</span>
+                    </div>
+                    <p class="text-[11px] text-red-700 dark:text-red-300 leading-relaxed">
+                        If data is open to *any* private provider or app, how do we guarantee clinical discretion and patient privacy? Uncontrolled data leakage risks exposing highly sensitive medical histories.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: The Data Discretion & Consent Simulator (Interactive) -->
+        <section class="bg-white dark:bg-saudi-carddark rounded-2xl p-6 md:p-8 shadow-md border border-slate-100 dark:border-slate-800 relative overflow-hidden">
+            <!-- Background Accent Ribbon -->
+            <div class="absolute top-0 right-0 w-32 h-32 bg-saudi-green/5 rounded-full -mr-16 -mt-16"></div>
+            
+            <div class="mb-8">
+                <span class="px-2.5 py-1 rounded bg-saudi-lightgreen dark:bg-emerald-950/40 text-saudi-green dark:text-saudi-gold text-xs font-bold uppercase tracking-wider">Interactive Demonstration</span>
+                <h3 class="text-2xl font-black text-slate-900 dark:text-white mt-2 flex items-center gap-3">
+                    <span class="flex items-center justify-center w-8 h-8 rounded-lg bg-saudi-lightgreen dark:bg-emerald-900/30 text-saudi-green dark:text-saudi-gold text-sm font-bold">3</span>
+                    How Discretion is Guaranteed: The Dynamic Consent Simulator
+                </h3>
+                <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">
+                    See exactly how a private doctor (e.g. on Cura) is strictly prohibited from viewing patient files until a cryptographically secure, real-time OTP consent handshake occurs via the patient's <strong class="text-saudi-green dark:text-saudi-gold font-semibold">Sehhaty</strong> app.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+                
+                <!-- Left Column: Private Clinician Panel -->
+                <div class="lg:col-span-5 bg-slate-50 dark:bg-slate-900/60 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-full bg-slate-200 dark:bg-slate-800 flex items-center justify-center font-bold text-slate-600 dark:text-slate-300">Dr</div>
+                            <div>
+                                <h4 class="text-sm font-extrabold text-slate-800 dark:text-white">Third-Party App Portal</h4>
+                                <p class="text-[10px] text-slate-400 font-mono">APP-ID: CURA-MED-9218</p>
+                            </div>
+                        </div>
+
+                        <!-- Config Selector -->
+                        <div class="space-y-3.5 pt-3">
+                            <div>
+                                <label class="block text-xs font-bold text-slate-500 dark:text-slate-400 mb-1.5 uppercase">1. Active Practitioner (Anat Verified)</label>
+                                <select id="simPractitioner" class="w-full text-xs p-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-800 dark:text-white focus:ring-2 focus:ring-saudi-green outline-none">
+                                    <option value="dr-khalid">Dr. Khalid Al-Otaibi, MD (Consultant Cardiologist)</option>
+                                    <option value="ph-sara">Sara Al-Ghamdi, PharmD (Clinical Pharmacist - NoDiet)</option>
+                                    <option value="unauthorized-user">Fahad Al-Malki (Unverified Staff / Expired Anat License)</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-bold text-slate-500 dark:text-slate-400 mb-1.5 uppercase">2. Select Target Patient</label>
+                                <select id="simPatient" class="w-full text-xs p-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-800 dark:text-white focus:ring-2 focus:ring-saudi-green outline-none">
+                                    <option value="patient-1">Yasmin Fahad (National ID: 109xxxx821)</option>
+                                    <option value="patient-2">Abdulaziz Al-Dosari (National ID: 104xxxx319)</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-bold text-slate-500 dark:text-slate-400 mb-1.5 uppercase">3. Information Requested from NPHIES</label>
+                                <div class="grid grid-cols-2 gap-2">
+                                    <label class="flex items-center gap-2 p-2 rounded bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 cursor-pointer text-[11px] text-slate-700 dark:text-slate-300">
+                                        <input type="checkbox" id="reqLabs" checked class="rounded text-saudi-green focus:ring-saudi-green">
+                                        Lab Results (HbA1c)
+                                    </label>
+                                    <label class="flex items-center gap-2 p-2 rounded bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 cursor-pointer text-[11px] text-slate-700 dark:text-slate-300">
+                                        <input type="checkbox" id="reqMeds" checked class="rounded text-saudi-green focus:ring-saudi-green">
+                                        Prescriptions
+                                    </label>
+                                    <label class="flex items-center gap-2 p-2 rounded bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 cursor-pointer text-[11px] text-slate-700 dark:text-slate-300">
+                                        <input type="checkbox" id="reqNotes" class="rounded text-saudi-green focus:ring-saudi-green">
+                                        Sensitive Case Notes
+                                    </label>
+                                    <label class="flex items-center gap-2 p-2 rounded bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 cursor-pointer text-[11px] text-slate-700 dark:text-slate-300">
+                                        <input type="checkbox" id="reqDermal" class="rounded text-saudi-green focus:ring-saudi-green">
+                                        Dermatology Logs
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Trigger Request -->
+                    <div class="pt-6">
+                        <button onclick="triggerSimRequest()" class="w-full bg-saudi-green hover:bg-saudi-darkgreen text-white font-bold py-3 px-4 rounded-xl text-xs transition-all shadow-md shadow-saudi-green/10 flex items-center justify-center gap-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                            Request NPHIES Clinical Pull
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Middle Column: The Gatekeeper (NPHIES Routing & SMS Verification) -->
+                <div class="lg:col-span-3 flex flex-col justify-center items-center relative py-6 lg:py-0">
+                    <!-- Connecting lines (Visual only) -->
+                    <div class="absolute w-0.5 h-full bg-slate-200 dark:bg-slate-800 hidden lg:block left-1/2 -translate-x-1/2 z-0"></div>
+
+                    <div class="relative z-10 w-full max-w-xs space-y-6">
+                        
+                        <!-- Block 1: Verification Engine -->
+                        <div id="gate-verification" class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 rounded-xl shadow-md text-center">
+                            <span class="inline-block px-1.5 py-0.5 bg-slate-100 dark:bg-slate-800 rounded text-[9px] text-slate-400 font-mono mb-2">SECURITY LAYER</span>
+                            <h5 class="text-xs font-bold text-slate-800 dark:text-slate-200">Anat Credentials Audit</h5>
+                            <div id="anat-status-pill" class="mt-2 text-[10px] inline-block font-bold text-slate-400 bg-slate-100 dark:bg-slate-800 px-3 py-1 rounded-full">
+                                IDLE
+                            </div>
+                        </div>
+
+                        <!-- Block 2: SMS Verification Trigger -->
+                        <div id="gate-sms" class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 rounded-xl shadow-md text-center opacity-40 transition-opacity">
+                            <span class="inline-block px-1.5 py-0.5 bg-saudi-lightgreen dark:bg-emerald-950/40 text-saudi-green dark:text-saudi-gold rounded text-[9px] font-mono mb-2">SMS GATEWAY</span>
+                            <h5 class="text-xs font-bold text-slate-800 dark:text-slate-200">Dynamic OTP Dispatch</h5>
+                            <p class="text-[10px] text-slate-400 mt-1">Generating ephemeral session keys...</p>
+                            <div class="mt-2 text-xs font-mono font-black text-slate-800 dark:text-white" id="otp-display">XXXX</div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Right Column: Patient Mobile Mock (SMS/Sehhaty Screen) -->
+                <div class="lg:col-span-4 flex items-center justify-center">
+                    <div class="w-full max-w-[280px] h-[520px] bg-slate-950 rounded-[40px] p-3 shadow-2xl border-4 border-slate-800 relative flex flex-col justify-between overflow-hidden">
+                        
+                        <!-- Speaker / Camera notch -->
+                        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-5 bg-slate-950 rounded-b-2xl z-20 flex items-center justify-center">
+                            <div class="w-12 h-1 bg-slate-800 rounded"></div>
+                        </div>
+
+                        <!-- Main Screen Content -->
+                        <div class="flex-1 bg-slate-900 rounded-[30px] p-4 pt-6 text-white flex flex-col justify-between relative overflow-y-auto scrollbar-thin">
+                            
+                            <!-- Header Bar -->
+                            <div class="flex justify-between items-center text-[10px] text-slate-400 mt-1">
+                                <span>9:41</span>
+                                <span class="font-bold text-saudi-green">Sehhaty Safe-Pass</span>
+                                <div class="flex items-center space-x-1">
+                                    <span class="w-2.5 h-1.5 bg-white rounded-sm inline-block"></span>
+                                </div>
+                            </div>
+
+                            <!-- Mobile App Active Area -->
+                            <div id="mobile-app-content" class="flex-1 flex flex-col justify-center items-center text-center space-y-4">
+                                <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center text-slate-400">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                                </div>
+                                <div>
+                                    <h6 class="text-xs font-extrabold text-slate-200">System Locked</h6>
+                                    <p class="text-[9px] text-slate-400 mt-1">Awaiting digital query dispatch from authorized healthcare platform.</p>
+                                </div>
+                            </div>
+
+                            <!-- Footer / Branding -->
+                            <div class="text-center text-[8px] text-slate-500 pt-2 border-t border-slate-800">
+                                National Unified Consent (NUC) • SDAIA Approved
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Custom Alert / Toast Feedback inside section -->
+            <div id="simFeedback" class="mt-6 p-4 rounded-xl hidden transition-all duration-300"></div>
+
+        </section>
+
+        <!-- Section 4: Deep Dive on the Technical Safeguards -->
+        <section class="bg-slate-900 text-white rounded-3xl p-8 md:p-12 shadow-xl border border-saudi-green/30 relative">
+            <div class="max-w-4xl space-y-6">
+                <div>
+                    <span class="text-xs font-bold text-saudi-gold uppercase tracking-widest">Architectural Safeguards</span>
+                    <h3 class="text-2xl md:text-3xl font-extrabold mt-1">How Discretion is Guaranteed at the Code Level</h3>
+                    <p class="text-sm text-slate-300 mt-2">
+                        Third-party private health applications and private hospital groups do *not* have a flat, search-ready interface to browse patient files. Instead, Lean and the MoH enforce an incredibly strict multi-gate validation process.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
+                    
+                    <div class="p-5 rounded-2xl bg-white/5 border border-white/10 space-y-2">
+                        <h4 class="text-sm font-bold text-saudi-gold flex items-center gap-2">
+                            <span class="w-2 h-2 rounded-full bg-saudi-gold"></span>
+                            Federated Query Tokenization (FQT)
+                        </h4>
+                        <p class="text-xs text-slate-300 leading-relaxed">
+                            Instead of transferring complete clinical folders, third-party apps submit structured queries via Heem. The system utilizes ephemeral, single-use, cryptographically signed JSON Web Tokens (JWT). These expire exactly 15 minutes post-encounter, shutting down long-term credential caching.
+                        </p>
+                    </div>
+
+                    <div class="p-5 rounded-2xl bg-white/5 border border-white/10 space-y-2">
+                        <h4 class="text-sm font-bold text-saudi-gold flex items-center gap-2">
+                            <span class="w-2 h-2 rounded-full bg-saudi-gold"></span>
+                            Role-Based Specialty Filtering (RBSF)
+                        </h4>
+                        <p class="text-xs text-slate-300 leading-relaxed">
+                            Anat continuously checks the physician's registered SCFHS specialty. If a remote clinical pharmacist working on NoDiet requests an oncology folder, NPHIES Sehey intercepts the call, throwing an automated block. Practitioners can only request data clinically relevant to their specialty.
+                        </p>
+                    </div>
+
+                    <div class="p-5 rounded-2xl bg-white/5 border border-white/10 space-y-2">
+                        <h4 class="text-sm font-bold text-saudi-gold flex items-center gap-2">
+                            <span class="w-2 h-2 rounded-full bg-saudi-gold"></span>
+                            PDPL Legal Hammer & Audit Trail
+                        </h4>
+                        <p class="text-xs text-slate-300 leading-relaxed">
+                            Under the Saudi Personal Data Protection Law (PDPL), every individual lookup must log the practitioner’s ID, the private application's license number, time, and patient OTP. Lean's security operations center (SOC) monitors these files for suspicious patterns, imposing fines of up to SAR 3 million.
+                        </p>
+                    </div>
+
+                    <div class="p-5 rounded-2xl bg-white/5 border border-white/10 space-y-2">
+                        <h4 class="text-sm font-bold text-saudi-gold flex items-center gap-2">
+                            <span class="w-2 h-2 rounded-full bg-saudi-gold"></span>
+                            Zero-Knowledge Cohort Enclaves
+                        </h4>
+                        <p class="text-xs text-slate-300 leading-relaxed">
+                            When telehealth platforms wish to query patient records to train diagnostic models or optimize care programs, the algorithm is executed inside a confidential compute sandbox. This means the model processes the anonymized data without the private app ever exporting or viewing patient records.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Bottlenecks Exposing & Policy Solutions (Saudi vs. Western World) -->
+        <section class="bg-white dark:bg-saudi-carddark rounded-2xl p-6 md:p-8 shadow-md border border-slate-100 dark:border-slate-800">
+            <div class="mb-6">
+                <span class="px-2.5 py-1 rounded bg-red-100 text-red-800 dark:bg-red-950/40 dark:text-red-400 text-xs font-bold uppercase tracking-wider">Gap Analysis & Strategic Brief</span>
+                <h3 class="text-2xl font-black text-slate-900 dark:text-white mt-2 flex items-center gap-3">
+                    <span class="flex items-center justify-center w-8 h-8 rounded-lg bg-saudi-lightgreen dark:bg-emerald-900/30 text-saudi-green dark:text-saudi-gold text-sm font-bold">5</span>
+                    Saudi Bottlenecks vs. The Western World (US/EU)
+                </h3>
+                <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">
+                    Exposing critical developmental bottlenecks in the Kingdom's system and comparing them to US (HIPAA/TEFCA) and European (GDPR/EHDS) frameworks.
+                </p>
+            </div>
+
+            <div class="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800">
+                <table class="min-w-full text-sm text-left divide-y divide-slate-200 dark:divide-slate-800">
+                    <thead class="bg-slate-50 dark:bg-slate-900/40 text-slate-600 dark:text-slate-300 uppercase tracking-wider text-[11px] font-bold">
+                        <tr>
+                            <th scope="col" class="px-6 py-4">Structural Metric</th>
+                            <th scope="col" class="px-6 py-4">The Saudi Bottleneck</th>
+                            <th scope="col" class="px-6 py-4">Western Comparative Benchmark</th>
+                            <th scope="col" class="px-6 py-4 text-saudi-green dark:text-saudi-gold">MOH Actionable Solution</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-200 dark:divide-slate-800 text-xs leading-relaxed">
+                        <!-- Row 1 -->
+                        <tr class="hover:bg-slate-50/50 dark:hover:bg-slate-900/10">
+                            <td class="px-6 py-4 font-bold text-slate-800 dark:text-slate-200">
+                                1. Deployment Imbalance
+                            </td>
+                            <td class="px-6 py-4 text-slate-500 dark:text-slate-400">
+                                <strong class="text-red-600 dark:text-red-400 font-semibold">NPHIES Taameen vs. Sehey Gap:</strong> Taameen (Insurance/Claims) is 90% implemented. Sehey (Clinical EHR interchange) lags significantly behind due to fragmented public hospital systems running siloed HIS instances.
+                            </td>
+                            <td class="px-6 py-4 text-slate-500 dark:text-slate-400">
+                                <strong class="text-slate-800 dark:text-white font-semibold">United States (TEFCA & Meaningful Use):</strong> Forced nationwide standard EHR adoption via federal financial incentives and heavy penalties for "information blocking".
+                            </td>
+                            <td class="px-6 py-4 text-saudi-green dark:text-emerald-400 font-medium">
+                                Tie health-system financial grants and licensing renewals directly to NPHIES Sehey integration milestones. Establish a "Unified National EHR Schema" mandate.
+                            </td>
+                        </tr>
+
+                        <!-- Row 2 -->
+                        <tr class="hover:bg-slate-50/50 dark:hover:bg-slate-900/10">
+                            <td class="px-6 py-4 font-bold text-slate-800 dark:text-slate-200">
+                                2. Consent Friction & Fatigue
+                            </td>
+                            <td class="px-6 py-4 text-slate-500 dark:text-slate-400">
+                                <strong class="text-red-600 dark:text-red-400 font-semibold">Binary Authorization Blocking:</strong> Patients must manually provide OTPs for almost every clinical pull. This creates severe friction for emergency triage and chronic care monitoring, causing patients to reject consent to avoid hassle.
+                            </td>
+                            <td class="px-6 py-4 text-slate-500 dark:text-slate-400">
+                                <strong class="text-slate-800 dark:text-white font-semibold">European Union (EHDS Framework):</strong> Introduces an "Opt-Out" model. Patient clinical records are securely available for cross-border care by default, with strict penalty auditing post-access instead of pre-access blocks.
+                            </td>
+                            <td class="px-6 py-4 text-saudi-green dark:text-emerald-400 font-medium">
+                                Propose a "Tiered Consent Registry" on Sehhaty. Allow citizens to select categories (e.g., share vitals with all licensed private apps, but restrict mental health to explicit OTP only).
+                            </td>
+                        </tr>
+
+                        <!-- Row 3 -->
+                        <tr class="hover:bg-slate-50/50 dark:hover:bg-slate-900/10">
+                            <td class="px-6 py-4 font-bold text-slate-800 dark:text-slate-200">
+                                3. API Openness & Licensing
+                            </td>
+                            <td class="px-6 py-4 text-slate-500 dark:text-slate-400">
+                                <strong class="text-red-600 dark:text-red-400 font-semibold">Siloed Commercial APIs:</strong> Private apps (Cura, Altibbi) operate independent, closed databases. They do not cross-exchange records, resulting in patients having duplicate profiles and fragmented histories across different apps.
+                            </td>
+                            <td class="px-6 py-4 text-slate-500 dark:text-slate-400">
+                                <strong class="text-slate-800 dark:text-white font-semibold">US & UK (FHIR Standard Mandate):</strong> The UK NHS and US ONC mandate open HL7 FHIR APIs. Any third-party app with basic credentials can read and write to the patient's record after explicit user OAuth approval.
+                            </td>
+                            <td class="px-6 py-4 text-saudi-green dark:text-emerald-400 font-medium">
+                                Mandate that any licensed virtual clinic in the Kingdom must utilize standardized HL7 FHIR endpoints to read/write records to NPHIES, eliminating private silos.
+                            </td>
+                        </tr>
+
+                        <!-- Row 4 -->
+                        <tr class="hover:bg-slate-50/50 dark:hover:bg-slate-900/10">
+                            <td class="px-6 py-4 font-bold text-slate-800 dark:text-slate-200">
+                                4. Practitioner Gig-Economy Barriers
+                            </td>
+                            <td class="px-6 py-4 text-slate-500 dark:text-slate-400">
+                                <strong class="text-red-600 dark:text-red-400 font-semibold">Administrative Onboarding Barriers:</strong> Practitioners (like clinical pharmacists on Anat) cannot dynamically offer remote consultancy. They must be manually recruited and formally linked to a platform's corporate license in a time-consuming process.
+                            </td>
+                            <td class="px-6 py-4 text-slate-500 dark:text-slate-400">
+                                <strong class="text-slate-800 dark:text-white font-semibold">Western Freelance Healthcare:</strong> Highly optimized digital marketplaces match licensed practitioners with telehealth gaps via standardized, pre-approved credential frameworks.
+                            </td>
+                            <td class="px-6 py-4 text-saudi-green dark:text-emerald-400 font-medium">
+                                Accelerate Lean's "Muahal" portal into a "National Freelance Telehealth Registry." Allow verified Anat professionals to obtain blanket remote-practice licenses.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Section 6: Strategic Action Plan for MoH Leadership -->
+        <section class="bg-gradient-to-r from-slate-900 to-saudi-darkgreen text-white rounded-3xl p-8 md:p-12 shadow-xl space-y-6">
+            <div class="max-w-4xl space-y-4">
+                <span class="text-xs font-bold text-saudi-gold uppercase tracking-widest">Actionable Road Map</span>
+                <h3 class="text-2xl md:text-3xl font-extrabold">Strategic Policy Proposals for MoH Leadership</h3>
+                <p class="text-sm text-slate-300 leading-relaxed">
+                    To cement Saudi Arabia’s position as a global champion in digital health transformation by 2030, the Ministry of Health must implement three primary operational objectives:
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 text-slate-100">
+                <div class="p-6 rounded-2xl bg-white/5 border border-white/10 space-y-3">
+                    <span class="text-2xl text-saudi-gold font-bold">01</span>
+                    <h4 class="text-sm font-bold text-white">Incentivize NPHIES Sehey Integration</h4>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Introduce operational penalties for public and private healthcare networks failing to submit core diagnostic logs to NPHIES Sehey by Q4 2027. We must address clinical database isolation to build high-quality clinical evidence pipelines.
+                    </p>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-white/5 border border-white/10 space-y-3">
+                    <span class="text-2xl text-saudi-gold font-bold">02</span>
+                    <h4 class="text-sm font-bold text-white">Deploy Dynamic Tiered Consent on Sehhaty</h4>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Transition the Kingdom from a restrictive binary consent structure to a tiered, patient-managed system. Citizens should be able to pre-approve private telemedicine portals to view general metrics (e.g. allergies, prescriptions) while locking down highly sensitive logs.
+                    </p>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-white/5 border border-white/10 space-y-3">
+                    <span class="text-2xl text-saudi-gold font-bold">03</span>
+                    <h4 class="text-sm font-bold text-white">Establish the National Clinical Sandbox</h4>
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Co-develop a state-regulated computing sandbox with Lean Business Services. This will allow certified Saudi pharmaceutical companies and local AI health startups to leverage NPHIES RWD pipelines to develop next-generation diagnostics without breaching patient confidentiality.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 border-t border-slate-800 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div class="flex items-center space-x-2">
+                <span class="text-sm font-extrabold text-white">MoH Executive Portals</span>
+                <span class="text-xs text-slate-600">|</span>
+                <span class="text-xs text-saudi-gold font-mono">VISION 2030 HEALTH SECTOR TRANSFORMATION</span>
+            </div>
+            <p class="text-xs text-slate-500">
+                © 2026 Saudi Ministry of Health. All rights reserved. Developed in collaboration with Lean Business Services & NHIC.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Interactive JS System Logic -->
+    <script>
+        // Ecosystem Database
+        const ecosystemNodes = {
+            'sehhaty': {
+                title: 'Sehhaty Platform',
+                arabic: 'منصة صحتي',
+                owner: 'Ministry of Health (MOH)',
+                operator: 'Lean Business Services',
+                dataDesc: 'Serves as the main customer-facing app for over 23 million citizens and residents. Tracks appointments, vaccinations, and is the gateway for public video consultations.',
+                integration: 'Synchronizes immediately with NPHIES Sehey to read historical medications and logs new telehealth encounters.',
+                security: 'Encrypted via mobile 2FA and hosted locally on secure government cloud infrastructure.'
+            },
+            '937': {
+                title: '937 Call Center & Triage',
+                arabic: 'مركز اتصال 937',
+                owner: 'Ministry of Health (MOH)',
+                operator: 'Lean Business Services',
+                dataDesc: '24/7 National medical consultation helpline. Provides immediate medical guidance, emergency triage, and routes telemedicine requirements.',
+                integration: 'Automatically records phone diagnostics and triggers digital prescriptions that flow straight into the NPHIES and Wasfaty networks.',
+                security: 'Requires identity matching (National ID) before clinical histories can be accessed by the remote physician.'
+            },
+            'svh': {
+                title: 'Seha Virtual Hospital (SVH)',
+                arabic: 'مستشفى صحة الافتراضي',
+                owner: 'Ministry of Health (MOH)',
+                operator: 'National Health Information Center (NHIC)',
+                dataDesc: 'The largest virtual hospital in the world. Connects specialized consultants across the Kingdom with rural healthcare points for complex cases (tele-radiology, tele-ICU).',
+                integration: 'Uses advanced EMR linking across public sector networks, serving as an orchestration platform for multi-disciplinary cases.',
+                security: 'Highly restricted, military-grade end-to-end data pipelines. Excludes all private cloud and third-party commercial elements.'
+            },
+            'private-apps': {
+                title: 'Licensed Telehealth Apps',
+                arabic: 'تطبيقات الرعاية الصحية الخاصة',
+                owner: 'Private Entities (Cura, Altibbi, NoDiet)',
+                operator: 'Respective Private Corporations',
+                dataDesc: 'MOH-licensed virtual platforms providing private commercial care, weight-management pipelines, and custom diagnostics.',
+                integration: 'Must verify practitioner standing on Anat. Integrates with physical pharmacies (e.g., NoDiet partnering with Adam Pharmacy) to deliver therapies.',
+                security: 'Operate within distinct silos. Under PDPL rules, they can only pull NPHIES clinical data upon explicit, real-time OTP consent from the patient.'
+            },
+            'anat': {
+                title: 'Anat Platform (SCFHS)',
+                arabic: 'منصة أناة',
+                owner: 'Saudi Ministry of Health & Saudi Commission for Health Specialties (SCFHS)',
+                operator: 'Lean Business Services',
+                dataDesc: 'Unified credentialing and registry tool for practitioners. Acts as the administrative database to ensure only active, licensed professionals handle telemedicine.',
+                integration: 'Links directly with private virtual apps via developer APIs to instantly share credentialing and professional standings.',
+                security: 'Maintains state-verified cryptographic signature systems to authenticate medical actions like electronic prescriptions.'
+            },
+            'nphies': {
+                title: 'NPHIES Core Platform',
+                arabic: 'منصة نفيس',
+                owner: 'Council of Health Insurance (CHI) & National Health Information Center (NHIC)',
+                operator: 'Lean Business Services',
+                dataDesc: 'The National HIE. Merges financial/insurance flows (Taameen) with clinical folders (Sehey) across Saudi Arabia.',
+                integration: 'Acts as the central router for patient data, connecting public hospitals, insurance providers, private clinics, and pharmacies.',
+                security: 'Strictly complies with the Saudi Personal Data Protection Law (PDPL) and utilizes localized physical servers managed by Lean.'
+            },
+            'rwe-pipeline': {
+                title: 'Real-World Evidence Engine',
+                arabic: 'أدلة العالم الحقيقي',
+                owner: 'Saudi Food & Drug Authority (SFDA)',
+                operator: 'Lean Business Services / NHIC',
+                dataDesc: 'Pools clinical telemetry from NPHIES. Generates clinical evidence on medication efficacy, safety, and disease prevalence across the Kingdom.',
+                integration: 'Reads stripped/pseudonymized files from NPHIES to build research registries.',
+                security: 'Absolute data anonymization. Excludes direct personal data, allowing researchers to study patient metrics within a safe environment.'
+            },
+            'pharmacies': {
+                title: 'Commercial Pharmacy Networks',
+                arabic: 'شبكات الصيدليات التجارية',
+                owner: 'Private Groups (Nahdi, Al-Dawaa, Adam)',
+                operator: 'Commercial Pharmacy Management Systems',
+                dataDesc: 'Physical and virtual fulfillment groups dispensing prescribed treatments, directly integrated with remote clinics.',
+                integration: 'Connects directly with Wasfaty and private telehealth e-prescribing tools to process orders instantly.',
+                security: 'Restricted access limits systems to prescription details only. Pharmacists are prevented from viewing comprehensive patient clinical histories.'
+            }
+        };
+
+        // Initialize UI with NPHIES selected on load
+        window.addEventListener('load', () => {
+            selectEcosystemNode('nphies');
+            
+            // Setup Theme
+            if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark');
+                document.getElementById('sunIcon').classList.remove('hidden');
+                document.getElementById('moonIcon').classList.add('hidden');
+            } else {
+                document.documentElement.classList.remove('dark');
+                document.getElementById('sunIcon').classList.add('hidden');
+                document.getElementById('moonIcon').classList.remove('hidden');
+            }
+        });
+
+        // Theme Toggle Logic
+        document.getElementById('themeToggle').addEventListener('click', () => {
+            const isDark = document.documentElement.classList.toggle('dark');
+            localStorage.theme = isDark ? 'dark' : 'light';
+            
+            document.getElementById('sunIcon').classList.toggle('hidden', !isDark);
+            document.getElementById('moonIcon').classList.toggle('hidden', isDark);
+        });
+
+        // Ecosystem Selection Highlight and Detail Display
+        function selectEcosystemNode(nodeKey) {
+            const node = ecosystemNodes[nodeKey];
+            if (!node) return;
+
+            // Highlight button
+            document.querySelectorAll('.eco-node-btn').forEach(btn => {
+                btn.classList.remove('ring-2', 'ring-saudi-green', 'dark:ring-saudi-gold', 'scale-[1.01]');
+            });
+            const selectedBtn = document.getElementById(`btn-${nodeKey}`);
+            if (selectedBtn) {
+                selectedBtn.classList.add('ring-2', 'ring-saudi-green', 'dark:ring-saudi-gold', 'scale-[1.01]');
+            }
+
+            // Build details card contents
+            const html = `
+                <div class="space-y-4 animate-fadeIn">
+                    <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3">
+                        <div>
+                            <h4 class="text-lg font-extrabold text-slate-900 dark:text-white">${node.title}</h4>
+                            <span class="arabic-text text-sm text-saudi-green dark:text-saudi-gold font-semibold">${node.arabic}</span>
+                        </div>
+                        <span class="px-2 py-0.5 rounded text-[10px] bg-slate-100 dark:bg-slate-800 text-slate-500 font-mono">ACTIVE</span>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-3 text-[11px]">
+                        <div>
+                            <span class="text-slate-400 block uppercase">Strategic Regulator</span>
+                            <strong class="text-slate-800 dark:text-slate-200">${node.owner}</strong>
+                        </div>
+                        <div>
+                            <span class="text-slate-400 block uppercase">Technical Developer</span>
+                            <strong class="text-slate-800 dark:text-slate-200">${node.operator}</strong>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2 pt-2">
+                        <span class="text-xs font-bold text-slate-400 uppercase block">Functional Mandate</span>
+                        <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">${node.dataDesc}</p>
+                    </div>
+
+                    <div class="space-y-2">
+                        <span class="text-xs font-bold text-slate-400 uppercase block">Integration Scope</span>
+                        <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">${node.integration}</p>
+                    </div>
+
+                    <div class="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-150 dark:border-slate-800/80 mt-2">
+                        <span class="text-[10px] font-bold text-saudi-green dark:text-saudi-gold uppercase tracking-wider block mb-1">Discretion & Access Safeguard</span>
+                        <p class="text-[11px] text-slate-500 dark:text-slate-400 leading-relaxed">${node.security}</p>
+                    </div>
+                </div>
+            `;
+            document.getElementById('eco-details-content').innerHTML = html;
+        }
+
+        // Consent Simulator Logic
+        let simInterval = null;
+        function triggerSimRequest() {
+            // Reset previous simulations
+            if (simInterval) clearInterval(simInterval);
+            
+            const practionerVal = document.getElementById('simPractitioner').value;
+            const patientVal = document.getElementById('simPatient').value;
+            
+            const gateVerification = document.getElementById('gate-verification');
+            const gateSMS = document.getElementById('gate-sms');
+            const anatStatusPill = document.getElementById('anat-status-pill');
+            const otpDisplay = document.getElementById('otp-display');
+            const mobileAppContent = document.getElementById('mobile-app-content');
+            const simFeedback = document.getElementById('simFeedback');
+
+            // Set default styling
+            simFeedback.className = "mt-6 p-4 rounded-xl hidden transition-all duration-300";
+            gateVerification.className = "bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 rounded-xl shadow-md text-center";
+            gateSMS.className = "bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 rounded-xl shadow-md text-center opacity-40";
+            anatStatusPill.className = "mt-2 text-[10px] inline-block font-bold text-slate-400 bg-slate-100 dark:bg-slate-800 px-3 py-1 rounded-full";
+            anatStatusPill.innerText = "PENDING AUDIT";
+            otpDisplay.innerText = "XXXX";
+
+            // Patient specific details
+            const patientNames = {
+                'patient-1': 'Yasmin Fahad',
+                'patient-2': 'Abdulaziz Al-Dosari'
+            };
+            const targetPatient = patientNames[patientVal];
+
+            // Core scenario blocks
+            if (practionerVal === 'unauthorized-user') {
+                // Scenario A: Anat Audit Blocked
+                anatStatusPill.innerText = "ACCESS REJECTED";
+                anatStatusPill.className = "mt-2 text-[10px] inline-block font-bold text-red-700 bg-red-100 dark:bg-red-950/40 px-3 py-1 rounded-full";
+                gateVerification.className = "bg-red-50 dark:bg-red-950/20 border-2 border-red-500 p-4 rounded-xl shadow-md text-center";
+                
+                mobileAppContent.innerHTML = `
+                    <div class="w-12 h-12 rounded-full bg-red-900/40 flex items-center justify-center text-red-400">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                    </div>
+                    <div>
+                        <h6 class="text-xs font-extrabold text-red-400">Intrusion Intercepted</h6>
+                        <p class="text-[9px] text-slate-400 mt-1">Anat verification failed. Practitioner is unregistered or holds expired qualifications.</p>
+                    </div>
+                `;
+
+                showSimFeedback("Security Exception", "Access blocked. Anat failed to verify active professional licensing for Fahad Al-Malki. System query discarded prior to contacting the patient database.", "error");
+                return;
+            }
+
+            // Scenario B: Authorization success but requires patient dynamic OTP verification
+            anatStatusPill.innerText = "VERIFIED";
+            anatStatusPill.className = "mt-2 text-[10px] inline-block font-bold text-emerald-700 bg-emerald-100 dark:bg-emerald-950/40 px-3 py-1 rounded-full text-white";
+            gateVerification.className = "bg-emerald-50 dark:bg-emerald-950/20 border-2 border-emerald-500 p-4 rounded-xl shadow-md text-center";
+
+            // Trigger OTP Phase
+            setTimeout(() => {
+                gateSMS.className = "bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 rounded-xl shadow-md text-center opacity-100 transition-opacity";
+                const mockOtp = Math.floor(1000 + Math.random() * 9000);
+                otpDisplay.innerText = mockOtp;
+
+                // Deliver to mobile interface
+                mobileAppContent.innerHTML = `
+                    <div class="w-full text-left space-y-3">
+                        <div class="p-3.5 rounded-xl bg-slate-800 border border-slate-700 space-y-1">
+                            <span class="text-[8px] text-saudi-gold font-bold uppercase tracking-wider">MOH Secure Portal</span>
+                            <h6 class="text-[11px] font-bold text-white">Clinical Records Request</h6>
+                            <p class="text-[10px] text-slate-300">
+                                <strong>Dr. Khalid</strong> (on Cura) has requested access to view your historical diagnostic parameters.
+                            </p>
+                        </div>
+                        <div class="text-center bg-slate-950 p-3 rounded-lg border border-slate-800">
+                            <span class="text-[9px] text-slate-400 uppercase tracking-widest block">YOUR SEHHATY PASSCODE</span>
+                            <span class="text-lg font-mono font-black text-emerald-400 tracking-wider">${mockOtp}</span>
+                            <p class="text-[8px] text-red-400 mt-1">Expires in 60s. Share only with your active treating physician.</p>
+                        </div>
+
+                        <div class="flex gap-2">
+                            <button onclick="approveSimOtp(${mockOtp}, '${targetPatient}')" class="flex-1 bg-saudi-green hover:bg-saudi-darkgreen text-white rounded py-2 text-[9px] font-bold transition-all uppercase">
+                                Approve Access
+                            </button>
+                            <button onclick="rejectSimOtp()" class="flex-1 bg-slate-800 hover:bg-slate-700 text-slate-400 rounded py-2 text-[9px] font-bold transition-all uppercase">
+                                Block
+                            </button>
+                        </div>
+                    </div>
+                `;
+
+                showSimFeedback("Authentication Handshake Initiated", "Anat verified credentials successfully. Requesting patient authorization. A secure OTP has been sent directly to the patient's registered device.", "warning");
+            }, 800);
+        }
+
+        // OTP Approved Trigger
+        function approveSimOtp(otp, patientName) {
+            const mobileAppContent = document.getElementById('mobile-app-content');
+            
+            // Highlight requested parameters to display
+            const labsChecked = document.getElementById('reqLabs').checked;
+            const medsChecked = document.getElementById('reqMeds').checked;
+            const notesChecked = document.getElementById('reqNotes').checked;
+            const dermalChecked = document.getElementById('reqDermal').checked;
+
+            let recordsHtml = '';
+            if (labsChecked) recordsHtml += `<li>• HbA1c: 6.2% (Normative Control Range)</li>`;
+            if (medsChecked) recordsHtml += `<li>• Metformin 500mg, Atorvastatin 20mg</li>`;
+            if (notesChecked) recordsHtml += `<li>• Psychiatric Evaluation: Private/Locked</li>`;
+            if (dermalChecked) recordsHtml += `<li>• Skin Lesion Logs: Normal Healing</li>`;
+
+            if (!recordsHtml) {
+                recordsHtml = '<li>• No core categories requested for clinical import.</li>';
+            }
+
+            mobileAppContent.innerHTML = `
+                <div class="w-full text-center space-y-3">
+                    <div class="w-10 h-10 mx-auto rounded-full bg-emerald-900/40 flex items-center justify-center text-emerald-400">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <div>
+                        <h6 class="text-[11px] font-extrabold text-white">Access Granted Securely</h6>
+                        <p class="text-[9px] text-slate-400 mt-1">Security Session Token logged on NPHIES Ledger.</p>
+                    </div>
+                </div>
+            `;
+
+            showSimFeedback(
+                "Dynamic Handshake Verified - Decryption Key Generated", 
+                `<strong>Authorization Confirmed:</strong> Access token validated for Patient <strong>${patientName}</strong>.<br><br><span class="font-bold">Decrypted Telehealth View:</span><ul class="mt-2 list-none font-mono text-xs text-slate-300 space-y-1">${recordsHtml}</ul><br><p class="text-[11px] text-slate-400"><em>A security trace log has been dispatched to NHIC/Lean servers. Active sessions will automatically disconnect in exactly 15 minutes.</em></p>`, 
+                "success"
+            );
+        }
+
+        function rejectSimOtp() {
+            const mobileAppContent = document.getElementById('mobile-app-content');
+            mobileAppContent.innerHTML = `
+                <div class="w-full text-center space-y-3">
+                    <div class="w-10 h-10 mx-auto rounded-full bg-red-900/40 flex items-center justify-center text-red-400">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <div>
+                        <h6 class="text-[11px] font-extrabold text-red-400">Access Blocked by User</h6>
+                        <p class="text-[9px] text-slate-400 mt-1">Query discarded securely. Logged as patient opt-out.</p>
+                    </div>
+                </div>
+            `;
+            showSimFeedback("Authentication Rejected", "Access blocked. The target patient explicitly rejected the dynamic authentication request. Private platforms remain completely isolated from patient clinical files.", "error");
+        }
+
+        function showSimFeedback(title, text, type) {
+            const simFeedback = document.getElementById('simFeedback');
+            simFeedback.className = "mt-6 p-4 rounded-xl transition-all duration-300 block";
+            
+            if (type === 'success') {
+                simFeedback.classList.add('bg-emerald-50', 'dark:bg-emerald-950/20', 'border-2', 'border-emerald-500', 'text-emerald-900', 'dark:text-emerald-100');
+            } else if (type === 'warning') {
+                simFeedback.classList.add('bg-amber-50', 'dark:bg-amber-950/20', 'border-2', 'border-amber-500', 'text-amber-900', 'dark:text-amber-100');
+            } else {
+                simFeedback.classList.add('bg-red-50', 'dark:bg-red-950/20', 'border-2', 'border-red-500', 'text-red-900', 'dark:text-red-100');
+            }
+
+            simFeedback.innerHTML = `
+                <h5 class="font-black text-sm uppercase">${title}</h5>
+                <p class="text-xs mt-1.5 leading-relaxed">${text}</p>
+            `;
+        }
+    </script>
+</body>
+</html>
